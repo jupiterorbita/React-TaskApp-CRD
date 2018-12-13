@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./TaskList.css";
 
 class TasksNew extends Component {
   constructor(props) {
@@ -36,18 +37,20 @@ class TasksNew extends Component {
 
   render() {
     return (
-      <div>
+      <div className="bg">
         <h3>TaskNew</h3>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
             name="title"
+            placeholder="enter task"
             value={this.state.title}
             onChange={this.handleChange}
           />
           <input
             type="text"
             name="description"
+            placeholder="enter description"
             value={this.state.description}
             onChange={this.handleChange}
           />

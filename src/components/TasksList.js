@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./TaskList.css";
 
 class TaskList extends Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class TaskList extends Component {
     });
     console.log("tasks =>", tasks);
     return (
-      <div>
+      <div className="bg">
         <h3>TaskList</h3>
         <ul>{tasks}</ul>
       </div>
