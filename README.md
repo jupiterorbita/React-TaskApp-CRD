@@ -1,5 +1,5 @@
 
-## Task-App CRD
+## Task-App CRD - concept made in React
 <p align="center">
   <img src="preview.gif"> &nbsp; &nbsp;
 </p>
